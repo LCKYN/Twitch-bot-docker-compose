@@ -1,7 +1,7 @@
 import aiofiles
 
 
-async def read_file(file_path):
+async def read_file(file_path) -> [dict, None]:
     try:
         async with aiofiles.open(file_path, mode="rb") as file:
             data = await file.read()

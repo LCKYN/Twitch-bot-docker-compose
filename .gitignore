@@ -1,0 +1,3 @@
+database/*
+twitch_bot/.env
+**.pyc
